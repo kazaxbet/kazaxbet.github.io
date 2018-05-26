@@ -24,7 +24,7 @@ width: 900px;
 	color: white;
 }
 .header{
-	background-image: url(Greyproblem.jpg);
+	background-image: url(Greyproblem2.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -40,9 +40,13 @@ width: 900px;
 	font-family: 'Merriweather', serif;
 	font-size: 35px;
 }
-.show{
-	padding-top: 30px;
-	margin-left: 370px;
+.showw{
+	display: inline-block;
+	vertical-align: middle;
+	width: 1300px;
+}
+.stri{
+	padding-right: 30px;
 }
 .footer-cool p{
 	margin-top: 0px;
@@ -102,4 +106,19 @@ color: #FFF;
 .col-4{
 	margin-left: 525px;
 
+}
+a{
+	position: relative;
+}
+a span{
+	display: none;
+}
+#comm{
+	/*display: inline-block;
+	vertical-align: middle;*/
+    float: right;
+    margin-left: 10px;
+}
+.all{
+	display: inline-block;
 }
