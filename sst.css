@@ -31,6 +31,7 @@ width: 900px;
 	height: 100vh;
 	color: white;
 	padding-top: 300px;
+	text-align: center;
 
 }
 .header-devis{
@@ -103,10 +104,6 @@ color: #FFF;
 	transition: 0.2s ease-out;
 
 }
-.col-4{
-	margin-left: 525px;
-
-}
 a{
 	position: relative;
 }
@@ -118,4 +115,13 @@ a span{
 	vertical-align: middle;*/
     float: right;
     margin-left: 10px;
+}
+
+@media(max-width:970px ){
+	.showw{
+		width: 970px;
+	}
+	.header{
+		width: 100%;
+	}
 }
