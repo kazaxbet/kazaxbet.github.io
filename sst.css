@@ -49,6 +49,7 @@ width: 900px;
 .comments{
 	position: relative;
 	float: right;
+	margin-right: 300px;
 }
 .spoiler-body{
 	display: none;
