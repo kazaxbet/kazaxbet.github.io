@@ -11,39 +11,49 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <link rel="stylesheet" type="text/css" href="sst.css">
 <link href="https://fonts.googleapis.com/css?family=Merriweather|PT+Sans+Caption:400,700" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+ <script type="text/javascript">
+$(document).ready(function(){
+$('.spoiler-body').hide();
+$('.spoiler-title').click(function(){
+    $(this).next().toggle(500)});
+});
+</script>
+<script type="text/javascript">
+  (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//vk.com/js/api/openapi.js?154"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'vk_openapi_js'));
+  (function() {
+    if (!window.VK || !VK.Widgets || !VK.Widgets.Post || !VK.Widgets.Post("vk_post_-158902437_65", -158902437, 65, '0lEi8ntMO5WFdtJLcEl-vzBsJDk-')) setTimeout(arguments.callee, 50);
+  }());
+</script>
  	</head>
  	<body>
  		<!-- ............................
   HEADER
   ...............................-->
  		<div class="header">
- 			
  			<div class="header-devis">Kazax Bet <br>  Ставки на CS:GO</div>
- 			
   				<p class="footer-social-icons">
   					<a href="https://vk.com/club158902437" class="button" target="_blank">Мы в <i class="fab fa-vk"></i></a>
   				</p>
-  			
  		</div>
  		<p class="ttt">Смотрите матчи вместе с нами</p>
  		<hr color="grey">
- 		<p class="ttt">ESL</p>
+ 		<div class="boddy">
+ 			<div class="comments"><div id="vk_post_-158902437_65"></div></div>
  		<div class="showw">
- 			<iframe src="https://player.twitch.tv/?channel=esl_csgo" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
- 			<iframe id="comm" src="https://www.twitch.tv/embed/esl_csgo/chat" frameborder="0" scrolling="no" height="500" width="350"></iframe></div>
- 		
- 		<hr color="grey">
- 		<p class="ttt">RUHUB</p>
+ 			<a class="spoiler-title" target="_blank">ESL</a>
+ 			<div class="spoiler-body" id="cast"><iframe src="https://player.twitch.tv/?channel=esl_csgo" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+ 			</div></div>
  		<div class="showw">
- 			<iframe src="https://player.twitch.tv/?channel=csruhub" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
- 			<iframe id="comm" src="https://www.twitch.tv/embed/ruhub/chat" frameborder="0" scrolling="no" height="500" width="350"></iframe></div>
- 	
- 	<hr color="grey">
- 	<p class="ttt">UCCLEAGUE</p>
+ 			<a class="spoiler-title" target="_blank">RUhub</a>
+ 			<div class="spoiler-body"><iframe src="https://player.twitch.tv/?channel=csruhub" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+ 			</div></div>
  	<div class="showw">
- 	 		<iframe src="https://player.twitch.tv/?channel=uccleague" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
- 		<iframe id="comm" src="https://www.twitch.tv/embed/uccleague/chat" frameborder="0" scrolling="no" height="500" width="350"></iframe></div>
- 
+ 		<a class="spoiler-title" target="_blank">UCCLEAGUE</a>
+ 	 		<div class="spoiler-body"><iframe src="https://player.twitch.tv/?channel=uccleague" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+ 		</div></div>
+ </div>
  	</body>
+ 	
 </html>
